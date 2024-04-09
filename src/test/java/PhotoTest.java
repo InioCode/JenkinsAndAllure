@@ -1,5 +1,4 @@
-public class PhotoTest {
-    import io.qameta.allure.Description;
+import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
@@ -7,9 +6,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
 
-    public class Mesto1Test {
+
+public class PhotoTest {
+
 
         String bearerToken = "сюда_впиши_свой_токен";
 
@@ -68,4 +68,3 @@ import static org.hamcrest.Matchers.equalTo;
         }
 
     }
-}
