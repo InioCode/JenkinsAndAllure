@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 public class PhotoTest {
 
 
-        String bearerToken = "сюда_впиши_свой_токен";
+        String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWNiMGI4YzQ0MTU1NTAwM2RiMDQ5MjQiLCJpYXQiOjE3MTI2NjYyOTYsImV4cCI6MTcxMzI3MTA5Nn0.j25XpMyuSQFYPZwjiE54WFO62F5eHuL1lt-7RWYwmes";
 
         @Before
         public void setUp() {
